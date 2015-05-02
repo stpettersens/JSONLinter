@@ -1,0 +1,36 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="JSONLinter.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="validForeground" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">White</Value>
+    </Setting>
+    <Setting Name="validBackground" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">Green</Value>
+    </Setting>
+    <Setting Name="invalidForeground" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">White</Value>
+    </Setting>
+    <Setting Name="invalidBackground" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">DarkRed</Value>
+    </Setting>
+    <Setting Name="CommentLine" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">Green</Value>
+    </Setting>
+    <Setting Name="String" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">183, 73, 73</Value>
+    </Setting>
+    <Setting Name="Number" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">37, 150, 109</Value>
+    </Setting>
+    <Setting Name="Operator" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">DarkGray</Value>
+    </Setting>
+    <Setting Name="Boolean" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">Blue</Value>
+    </Setting>
+    <Setting Name="DefaultIntent" Type="System.String" Scope="User">
+      <Value Profile="(Default)">4</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
