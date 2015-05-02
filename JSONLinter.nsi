@@ -48,6 +48,7 @@ Section "MainSection" SEC01
   SetOutPath "$INSTDIR"
   SetOverwrite ifnewer
   File "JSONLinter.exe"
+  File "JSONLinter.exe.config"
   File "ScintillaNET.dll"
   File "license.txt"
 
@@ -88,6 +89,7 @@ Section Uninstall
   Delete "$INSTDIR\${PRODUCT_NAME}.url"
   Delete "$INSTDIR\uninst.exe"
   Delete "$INSTDIR\JSONLinter.exe"
+  Delete "$INSTDIR\JSONLinter.exe.config"
   Delete "$INSTDIR\ScintillaNET.dll"
   Delete "$INSTDIR\license.txt"
   
