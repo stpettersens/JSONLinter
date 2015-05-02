@@ -1,2 +1,2 @@
 # JSONLinter
-Graphical front-end for jsonlint.
+Graphical front-end for Zachary Carter's [jsonlint](https://github.com/zaach/jsonlint).
