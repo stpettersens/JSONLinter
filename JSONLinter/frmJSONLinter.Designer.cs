@@ -153,16 +153,16 @@
             // 
             this.copyToClipboardToolStripMenuItem.Name = "copyToClipboardToolStripMenuItem";
             this.copyToClipboardToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.C)));
-            this.copyToClipboardToolStripMenuItem.Size = new System.Drawing.Size(141, 22);
-            this.copyToClipboardToolStripMenuItem.Text = "&Copy";
+            this.copyToClipboardToolStripMenuItem.Size = new System.Drawing.Size(157, 22);
+            this.copyToClipboardToolStripMenuItem.Text = "&Copy All";
             this.copyToClipboardToolStripMenuItem.Click += new System.EventHandler(this.copyToClipboardToolStripMenuItem_Click);
             // 
             // pasteFromClipboardToolStripMenuItem
             // 
             this.pasteFromClipboardToolStripMenuItem.Name = "pasteFromClipboardToolStripMenuItem";
             this.pasteFromClipboardToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.V)));
-            this.pasteFromClipboardToolStripMenuItem.Size = new System.Drawing.Size(141, 22);
-            this.pasteFromClipboardToolStripMenuItem.Text = "&Paste";
+            this.pasteFromClipboardToolStripMenuItem.Size = new System.Drawing.Size(157, 22);
+            this.pasteFromClipboardToolStripMenuItem.Text = "&Paste All";
             this.pasteFromClipboardToolStripMenuItem.Click += new System.EventHandler(this.pasteFromClipboardToolStripMenuItem_Click);
             // 
             // optionsToolStripMenuItem
