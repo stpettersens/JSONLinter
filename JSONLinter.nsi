@@ -48,7 +48,7 @@ InstallDirRegKey HKLM "${PRODUCT_DIR_REGKEY}" ""
 ShowInstDetails show
 ShowUnInstDetails show
 
-Function installJsonLinter
+Function installJsonLint
   DetailPrint "Installing jsonlint via node package manager (npm)..."
   nsExec::ExecToStack `npm.cmd install jsonlint`
   Pop $0 ; Pop return code from program from stack.
@@ -71,7 +71,7 @@ Section "MainSection" SEC01
   SetOutPath "$INSTDIR"
   SetOverwrite ifnewer
 
-  Call installJsonLinter
+  Call installJsonLint
 
   File "JSONLinter.exe"
   File "JSONLinter.exe.config"
